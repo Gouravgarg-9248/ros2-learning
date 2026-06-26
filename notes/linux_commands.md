@@ -207,3 +207,112 @@ top
 ```bash
 kill 1234
 ```
+
+## Disk and Storage Commands
+
+### df -h
+**Purpose:** Check disk usage and free space
+```bash
+df -h
+```
+
+### df -sh folder1
+**Purpose:** Check size of a specific folder.
+```bash
+df -sh folder1
+```
+
+## Network Commands
+
+### ip a
+**Purpose:** Show network interfaces and IP addresses
+```bash
+ip a
+```
+
+### ping google.com
+**Purpose:** Test internet connectivity
+```bash
+ping google.com
+```
+
+## Archive and Compression Commands
+
+### zip -r project.zip project
+**Purpose:** Compress files/folders
+```bash
+zip -r project.zip project
+```
+
+### unzip project.zip
+**Purpose:** Extract zip files
+```bash
+unzip project.zip
+```
+
+
+## File Permissions and Executable Commands
+
+### Permission Letters
+
+- `r` = Read
+- `w` = Write
+- `x` = Execute
+
+### Numeric Permissions
+
+- `r = 4`
+- `w = 2`
+- `x = 1`
+
+Examples:
+#### just adding those numbers
+
+- `rwx = 7`
+- `rw- = 6`
+- `r-x = 5`
+- `r-- = 4`
+
+### To check file's permissions:
+
+```bash
+ls -l
+```
+#### output:
+
+```bash
+-rwxr-xr-- ....
+```
+
+where the format is Owner_Group_Others permission i.e., 
+- `owner permissions 	-->  rwx`
+- `group permissions 	-->  r-x`
+- `others permissions  -->  r--`
+
+
+### Make a Python File Executable
+
+#### using permission letters
+```bash
+chmod +x file.py
+./file.py
+```
+
+The first line makes the file executable.
+The second line runs it.
+
+#### using numeric permission
+```bash
+chmod 644 file.py
+```
+
+### Shebang
+
+```python
+#!/usr/bin/env python3
+```
+
+This tells Linux to execute the file using Python 3. 
+It is written in the starting of the file.
+It is important to write shebang to make the file executable.
+
