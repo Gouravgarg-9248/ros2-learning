@@ -26,6 +26,8 @@ cd ..
 cd ~
 ```
 
+---
+
 ## Listing Commands
 
 ### ls
@@ -51,6 +53,8 @@ la -a
 ```bash
 ls -la
 ```
+
+---
 
 ## File and Folder Commands
 
@@ -84,6 +88,8 @@ rmdir folder1
 rm -r folder1 
 ```
 
+---
+
 ## Copy and Move Commands
 
 ### cp
@@ -110,6 +116,8 @@ mv old.txt new.txt
 mv file.txt folder1/
 ```
 
+---
+
 ## File Viewing Commands
 
 ### cat
@@ -129,6 +137,8 @@ less file.txt
 ```bash
 nano notes.txt	
 ```
+
+---
 
 ## Search Commands
 
@@ -162,6 +172,8 @@ grep -i"ros2" notes.txt
 grep -r "piblisher" .
 ```
 
+---
+
 ## Package Management Commands
 
 ### sudo apt update
@@ -188,6 +200,8 @@ sudo apt install git
 sudo apt remove package_name
 ```
 
+---
+
 ## Process Management
 
 ### ps aux
@@ -208,6 +222,8 @@ top
 kill 1234
 ```
 
+---
+
 ## Disk and Storage Commands
 
 ### df -h
@@ -221,6 +237,8 @@ df -h
 ```bash
 df -sh folder1
 ```
+
+---
 
 ## Network Commands
 
@@ -236,6 +254,8 @@ ip a
 ping google.com
 ```
 
+---
+
 ## Archive and Compression Commands
 
 ### zip -r project.zip project
@@ -250,6 +270,7 @@ zip -r project.zip project
 unzip project.zip
 ```
 
+---
 
 ## File Permissions and Executable Commands
 
